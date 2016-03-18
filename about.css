@@ -1,0 +1,17 @@
+body {
+    background-image: url(space.gif);
+    background-size: cover;
+}
+
+#home {
+    color: white;
+    text-decoration: none;
+    padding-left: 50%;
+    position: fixed;
+    right: 50%;
+    bottom: -15px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-family: 'Poiret One', cursive;
+}

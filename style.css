@@ -1,0 +1,45 @@
+body {
+    /* background-image: url(https://media.giphy.com/media/ygAaR0n5RsyAM/giphy.gif);*/
+    background-image: url(http://static.tumblr.com/035974fe1bbdc9273bce57277946cd3d/aymbz4l/FBIn50ms5/tumblr_static_65kuce4cj10c0s0g48cck8c04.jpg);
+    background-size: cover;
+}
+
+#logo {
+    width: 25%;
+    position: fixed;
+}
+
+.cat-container {
+    display: flex;
+    padding: 15%;
+    flex-grow: 10;
+    flex-basis: 16%;
+    justify-content: center;
+}
+
+.catBtn {
+    height: 200px;
+    width: 200px;
+    opacity: 0.75;
+    margin: 5px;
+}
+
+.catBtn:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    flex-wrap: wrap-reverse;
+}
+
+#about {
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    right: 50%;
+    bottom: -15px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-family: 'Poiret One', cursive;
+}
